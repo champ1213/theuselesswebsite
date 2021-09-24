@@ -8,7 +8,7 @@ function cll() {
 
 };
 function cee() {
-    console.log("The names are: euwain, zak no, name bob, cookie, scout");
+    console.log("The names are: euwain, zak, no name bob, cookie, scout");
     var buttonn = document.getElementById("text");
     buttonvaluee = buttonn.value;
     //alert(buttonvaluee)
