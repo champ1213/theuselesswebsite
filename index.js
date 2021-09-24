@@ -1,5 +1,6 @@
 
 function cll() {
+
     var button = document.getElementById("hi");
     buttonvalue = button.value;
     alert(buttonvalue + " clicked me")
@@ -7,6 +8,7 @@ function cll() {
 
 };
 function cee() {
+    console.log("The names are: euwain, zak no, name bob, cookie, scout");
     var buttonn = document.getElementById("text");
     buttonvaluee = buttonn.value;
     //alert(buttonvaluee)
