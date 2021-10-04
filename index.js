@@ -11,27 +11,29 @@ function cee() {
     console.log("The names are: euwain, zak, no name bob, cookie, scout");
     var buttonn = document.getElementById("text");
     buttonvaluee = buttonn.value;
+    let names = ["euwain", "zak", "no name bob", "cookie", "scout"];
     //alert(buttonvaluee)
-    if(buttonvaluee == "euwain") {
+    if(buttonvaluee == names[0]) {
         alert("hi " + buttonvaluee + " you have access");
         return true; 
     };
-    if(buttonvaluee == "zak") {
+    if(buttonvaluee == names[1]) {
         alert("hi " + buttonvaluee + " you have access");
         return true; 
     };
-    if(buttonvaluee == "no name bob") {
+    if(buttonvaluee == names[2]) {
         alert("hi " + buttonvaluee + " you have access");
         return true; 
     };
-    if(buttonvaluee == "scout") {
+    if(buttonvaluee == names[3]) {
         alert("hi " + buttonvaluee + " you have access");
         return true; 
     };
-    if(buttonvaluee == "cookie") {
+    if(buttonvaluee == names[4]) {
         alert("hi " + buttonvaluee + " you have access");
-        return true; 
-    };
+        return true;
+    };    
+ 
     alert("Your name was not on the list sorry");
     alert("if know me and you want access please request")
     return false;
